@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<style>
+#menu ul li {
+    display: inline;
+    margin-right: 20px; /* Adicione a margem direita desejada entre os ícones */
+}
+
+#menu {
+    float: left;
+    width: 82px;
+    height: 78px;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-item {
+    background-color: #910909; /* Cor de fundo para os ícones */
+    padding: 10px;
+    border-radius: 50%; /* Para criar um círculo */
+    margin: 10px; /* Espaçamento entre os itens */
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li.agenda a {
+    color: green;
+}
+
+#menu ul li.contato a {
+    color: blue;
+}
+#menu ul li a:active {
+    color: red; /* Altera a cor do ícone para vermelho quando clicado */
+}
+</style>
+<body>
+    <div id="menu">
+        <ul>
+            <li class="home"><a href="#"><i class="fas fa-home"></i></a></li>
+            <li class="agenda"><a href="#"><i class="fas fa-calendar"></i></a></li>
+            <li class="contato"><a href="#"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </div>
+</body>
+</html>
